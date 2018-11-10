@@ -5,8 +5,8 @@ The Qt3D.Extras model provide a camera controller name with OrbitCameraControlle
 
 | Input                            | Action                                                       |
 | -------------------------------- | ------------------------------------------------------------ |
-| Left mouse button                | While the right mouse button is pressed, mouse movement along x-axis pans the camera around the camera view center and movement along y-axis tilts it around the camera view center. |
-| Right mouse button               | While the right mouse button is pressed, mouse movement along x-axis pans the camera around the camera view center and movement along y-axis tilts it around the camera view center. |
+| Left mouse button                | While the left mouse button is pressed, mouse movement along x-axis pans the camera around the camera view center and movement along y-axis tilts it around the camera view center. |
+| Right mouse button               | While the right mouse button is pressed, mouse movement along x-axis moves the camera left and right and movement along y-axis moves it up and down. |
 | Both left and right mouse button | While both the left and the right mouse button are pressed, mouse movement along y-axis zooms the camera in and out without changing the view center. |
 
 You can change the action by yourself ofcourse.
