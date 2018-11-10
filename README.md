@@ -12,3 +12,5 @@ The Qt3D.Extras model provide a camera controller name with OrbitCameraControlle
 You can change the action by yourself ofcourse.
 
 You can simply put the SOrbitCameraController.qml into you project and use it just like OrbitCameraController. Even the property is same as OrbitCameraController.
+
+![screenshot_20181111_001729](https://user-images.githubusercontent.com/5242852/48303620-36d27100-e547-11e8-91ba-cf5aaf855efb.png)
