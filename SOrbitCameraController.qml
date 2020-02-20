@@ -2,7 +2,7 @@ import Qt3D.Core 2.0
 import Qt3D.Render 2.0
 import Qt3D.Input 2.0
 
-Entity{
+Entity {
     id: root
     property Camera camera;
     property real dt: 0.001
@@ -30,8 +30,10 @@ Entity{
             lastPos = Qt.point(mouse.x, mouse.y);
         }
         onPositionChanged: {
+            if(!root.enabled) return;
+
             // You can change the button as you like for rotation or translation
-            if (mouse.buttons === 1){ // Left button for rotation
+            if (mouse.buttons === 1) { // Left button for rotation
                 pan = -(mouse.x - lastPos.x) * dt * lookSpeed;
                 tilt = (mouse.y - lastPos.y) * dt * lookSpeed;
             } else if (mouse.buttons === 2) { // Right button for translate
@@ -46,6 +48,8 @@ Entity{
             lastPos = Qt.point(mouse.x, mouse.y)
         }
         onWheel: {
+            if(!root.enabled) return;
+
             zoom(wheel.angleDelta.y * dt * linearSpeed)
         }
 

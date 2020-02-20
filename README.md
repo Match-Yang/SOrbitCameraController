@@ -1,5 +1,5 @@
 # SOrbitCameraController
-A orbir camera controller for Qt3D(QML)
+A orbit camera controller for Qt3D(QML)
 
 The Qt3D.Extras model provide a camera controller name with OrbitCameraController. But you can not specity which button of mouse for rotation or translation. So I make one. The default action is:
 
