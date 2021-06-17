@@ -11,9 +11,6 @@ Entity{
     property real zoomLimit: 0.16
 
 
-
-    InputSettings {}
-
     MouseDevice {
         id: mouseDevice
         sensitivity: 0.001 // Make it more smooth
